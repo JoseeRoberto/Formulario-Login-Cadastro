@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(31, 28, 28);
+}
+h2{
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 0 0 10px #bebebe, 0 0 20px #bebebe, 0 0 30px #bebebe, 0 0 40px #bebebe, 0 0 50px #bebebe, 0 0 60px #bebebe, 0 0 70px #bebebe;
+}
+.mail, .password{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: floralwhite;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 10px #009efa, 0 0 20px #009efa, 0 0 30px #009efa, 0 0 40px #009efa, 0 0 50px #009efa, 0 0 60px #009efa, 0 0 70px #009efa;
+}
+.textoemail, .textopassword{
+    border: solid 2px;
+    border-radius: 5px;
+    width: 200px; 
+    padding: 8px; 
+    margin: 0 auto;
+    display: block;
+    border-color: rgb(160, 157, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.envio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 135%;
+    width: 200px; 
+    padding: 8px; 
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, blue, green);
+    border: solid ;
+    border-radius: 50px;
+}
+.LoginPrincipal{
+    background-image: url("espiral.gif");
+    background-repeat: no-repeat;
+    border-radius: 100px 0 100px 0;
+    width: 30%;
+    height: 499px;
+    margin: auto;
+    display: block;
+    border-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: 50px;
+    border: solid white;
+}
+.Cadastre, .esqueceu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(238, 237, 241);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+h3{
+    color: dimgray;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    border: solid;
+    border-radius: 50px 50px;
+}
+.explicacao{
+    font-size: 200%;
+    text-align: center;
+    color: #bebebe;
+    font-family: monospace;
+}
